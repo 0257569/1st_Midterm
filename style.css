@@ -14,11 +14,12 @@ body {
   }
   main{
     display: block;
-    margin: 10rem;
+    position: absolute;
+    margin: 9rem;
   }
   div {
     z-index: -2;
-    display: block;
+    display: inline-block;
     position: absolute;
     border-radius: 3%;
   }
@@ -77,6 +78,7 @@ body {
     span{
     color: var(--lg-color);
     position: relative;
+    bottom: 1rem;
     font-weight: 500;
     left: 5rem;
   }
@@ -106,22 +108,22 @@ body {
   }
   #jonathan{
     background-color: var(--vdgb-color);
-    right: 510px;
+    left: 35rem;
   }
   #jeanette{
     background-color: var(--white-color);
-    bottom: 20px;
+    top: 18rem;
   }
   #patrick{
     background-color: var(--vdbb-color);
-    bottom: 20px;
-    right: 510px;
+    top: 18rem;
+    left: 17rem;
   }
   #kira{
     background-color: var(--white-color);
     width: 16rem;
     height: 35.5rem;
-    right: 220px;
+    left: 52rem;
   }
 
   #patrick img{
