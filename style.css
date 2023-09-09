@@ -1,0 +1,135 @@
+body {
+    height: 690px;
+    margin: auto;
+    width: 1440px;
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: var(--lgb-color);
+    --violet-color: #7541c8;
+    --vdgb-color: #48556a;
+    --vdbb-color: #19212e;
+    --white-color: #ffffff;
+    --lg-color: #cfcfcf;
+    --lgb-color: #ecf2f8;
+  }
+  main{
+    display: block;
+    margin: 150px;
+  }
+  article {
+    z-index: -2;
+    display: block;
+    position: absolute;
+    border-radius: 3%;
+  }
+  img{
+    display: block;
+    position: absolute;
+  }
+  .bordered{
+    border-style: solid;
+    border-color: var(--vdgb-color);
+  }
+  .light{
+    color: var(--vdgb-color);
+  }
+
+  .dark{
+    color: var(--lg-color);
+  }
+  .light p{
+    color: var(--vdbb-color);
+  }
+  .dark p{
+    color: var(--lgb-color);
+  }
+  .dark h1{
+    color: var(--lgb-color);
+  }
+  article .pp{
+    position: relative;
+    height: 28px;
+    margin-top: 10px;
+    margin-left: 34px;
+    border-radius: 50%;
+    top: 10px;
+    left: 0%;
+  }
+  article .header{
+    display: block;
+    position: relative;
+    margin-top: 10px;
+  }
+  article section h1{
+    position: absolute;
+    margin-bottom: 5px;
+    top: 0%;
+    left: 80px;
+  }
+  article section span{
+    color: var(--lg-color);
+    position: absolute;
+    font-weight: 500;
+    left: 80px;
+    top: 33px;
+  }
+  article section p{
+    display: block;
+    position: relative;
+    top: 15%;
+    margin-left: 38px;
+    margin-right: 38px;
+    font-size: 19px;
+    font-weight: 600;
+  }
+  article section blockquote{
+    position: relative;
+    display: block;
+    bottom: 0%;
+    margin-top: 25px;
+    margin-bottom: 34px;
+    font-family: 500;
+    margin-left: 34px;
+    margin-right: 34px;
+  }
+  #quotations{
+    z-index: -1;
+    height: 90px;
+    left: 70%; 
+
+  }
+  #daniel{
+    background-color: var(--violet-color) ;
+    height: 274px;
+    width: 528px;
+
+  }
+  #jonathan{
+    background-color: var(--vdgb-color);
+    height: 274px;
+    width: 253px;
+    right: 510px;
+  }
+  #jeanette{
+    background-color: var(--white-color);
+    height: 274px;
+    width: 254px;
+    bottom: 20px;
+  }
+  #patrick{
+    background-color: var(--vdbb-color);
+    height: 274px;
+    width: 528px;
+    bottom: 20px;
+    right: 510px;
+  }
+  #kira{
+    background-color: var(--white-color);
+    width: 254px;
+    height: 569px;
+    right: 220px;
+  }
+
+  #patrick img{
+    border-color: var(--violet-color);
+  }
